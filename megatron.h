@@ -1,4 +1,3 @@
-#pragma once
 #include <bits/stdc++.h>
 #include <vector>
 #include <random>
@@ -9,14 +8,15 @@ using namespace std;
 #include "weapon.h"
 #include "transformer.h"
 
-class optimus : public Transformer {
+class megatron : public Transformer {
 public:
-    optimus() {
-        this->name = "Optimus";
+    magatron() {
+        this->name = "megatron";
         this->health = 100; 
         this->weapons = {
-            weapon("optimus Weapon 1", 10, 0.5),
-            weapon("optimus Weapon 2", 20, 0.6)
+            weapon("megatron weapon 1 ", 30, 0.7),
+            weapon("megatron weapon 2 ", 40, 0.3)
         };
     }
 };
+
